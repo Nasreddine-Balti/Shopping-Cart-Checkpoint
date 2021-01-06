@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container .title{
+    text-align: center;
+    color:gray;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 40px;
+}
+
+.container .items{
+    display: flex;
+    align-self: flex-end;
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 30px 30px 30px 90px;
+}
+
+.items .item{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 0 200px 20px 0;
+}
+
+.items .item .itempic {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    border-radius: 8px; 
+    margin: 5px 30px 5px 10px;
+}
+
+
+.items .item .itemdescription{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+
+.items .item .itemdescription div{
+    display: flex;
+    justify-content: space-around;
+    border-style: hidden;
+    border-radius: 40px;
+    width: 40%;
+    padding: 5px 5px 0 5px;
+    margin-left: 55px;
+    
+}
+
+
+.items .item .itemdescription div img{
+    margin-top: 9px;
+
+}
+
+
+.items .item .quantity .itemqt {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+    margin: 90px 40px 0 40px ;
+    height: 34px;
+    width: 50px;
+    text-align: center;
+
+}
+
+
+
+.items .item .itemdltb{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.items .item .itemdltb button{
+    background-color: white;
+    border-style: hidden;
+    
+}
+
+.price{ 
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    color:gray;
+    padding: 40px;
+}
